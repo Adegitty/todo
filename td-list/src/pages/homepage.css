@@ -1,0 +1,72 @@
+.home-page {
+    padding: 20px;
+    width: 100vw;
+   height: max-content;
+   /* background-color: yellow; */
+   border: 3px solid black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+   button {
+    width: 140px;
+    height: 48px;
+    padding: 7px;
+    border-radius: 6px;
+    margin: 7px;
+    cursor: pointer;
+    
+ }
+  }
+  .todo-form {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   input {    
+    width: 70%;
+    height: 7%;
+    border-radius: 10px;
+    padding: 17px;
+    margin: 16px;
+ }  
+
+
+  }
+
+  .todo-item.trashed h3,
+.todo-item.trashed p {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.6;
+}
+
+  
+ 
+   
+
+
+
+
+h3 {
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: rgb(50, 117, 177);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+p {
+   width: 270px;
+   background-color: rgb(50, 117, 177);
+   font-size: 20px;
+   padding: 7px;
+   border-radius: 14px;
+}
+
+   

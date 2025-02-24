@@ -1,0 +1,78 @@
+/* body {
+  background-image: linear-gradient(#032030,#022b42,#003554, #004d74, #006494, #006da4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.todo-wrapper {
+  width: 70vw;
+  height: 100vh;
+  background-image: linear-gradient(#021024, #052659, #5483b3, #7da0c4, #c1e8ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    color: black;
+    font-size: 38px;
+  }
+
+
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+      font-size: 14px;
+      width: 320px;
+      height: 44px;
+    }
+  
+  }
+}
+
+input {
+  
+  font-size: 70px;
+  border-radius: 30px;
+}
+
+  
+ul {
+  color: black;
+  width: 49vw;
+  text-align: center;
+  border: 60px #021024 solid;
+
+  li {
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 6px white solid;
+    font-size: 16px;
+
+  }
+}
+ */
+
+
+ /* App.css */
+body {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  font-family: Arial, sans-serif;
+  background-color: mediumslateblue;
+  margin: 0;
+  padding: 0;
+}
