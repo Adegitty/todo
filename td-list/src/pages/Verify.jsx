@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './verify.css';
 
-const VerifyPage = () => {
+const Verify = () => {
   const [token, setToken] = useState('');
   const navigate = useNavigate();
   const url = `https://free-todo-api.vercel.app/user/verify-email?token=${token}`;
@@ -39,4 +39,4 @@ const VerifyPage = () => {
   );
 };
 
-export default VerifyPage;
+export default Verify;
